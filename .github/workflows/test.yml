@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Browser Tests
-        uses: aevsai/monkey-test@v1 # Or use ./  for local action
+        uses: aevsai/monkey-test@v0.1 # Or use ./  for local action
         with:
           api-key: ${{ secrets.BROWSER_USE_API_KEY }}
           test-directory: tests
